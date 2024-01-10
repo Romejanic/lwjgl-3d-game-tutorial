@@ -24,4 +24,5 @@ dependencies {
 
 application {
     mainClass = 'org.tutorial.game.GameApp'
+	applicationDefaultJvmArgs = ['-XstartOnFirstThread']
 }
