@@ -61,6 +61,7 @@ public class Mesh {
             vbos.flip();
             glDeleteBuffers(vbos);
         }
+        allMeshes.clear();
     }
 
 }
